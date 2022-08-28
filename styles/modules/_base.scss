@@ -1,0 +1,80 @@
+$bg: #00030b;
+$blur: #00000044;
+$accent-color: #ff000092;
+$text-color: #fff;
+$main-font: 'Roboto Condensed', sans-serif;
+$h-font: 'Oswald', sans-serif;
+
+@mixin blockBorder {
+    border: 1px solid white;
+    transition: 500ms ease;
+}
+
+@mixin blockBorderHover {
+    transform: scale(1.04);
+    transition: 500ms ease;
+    border: 1px solid red;
+}
+
+// specifications
+body,
+*,
+a{
+    font-family: $main-font;
+    color: white;
+}
+
+a,
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a:hover{
+    color: #fff;
+}
+
+h1,
+h2,
+h3{
+    font-family: $h-font;
+}
+
+.about,
+.watch,
+.interesting {
+    height: 100vh;
+    background-color: $bg;
+    padding: 7em 0;
+}
+
+.container {
+    max-width: 80vw;
+    width: 100%;
+    position: relative;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: $accent-color #00030b;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 18px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #00030b;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: $accent-color;
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+}

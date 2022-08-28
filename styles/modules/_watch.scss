@@ -1,0 +1,24 @@
+@import './base';
+
+.watch__iframe{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.watch__btn{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    @include blockBorder;
+    &:hover{
+        @include blockBorderHover;
+    }
+    .btn__text{
+        padding: 0 .5em;
+    }
+}
