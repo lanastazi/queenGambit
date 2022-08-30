@@ -338,7 +338,7 @@ h3 {
     display: block;
     width: 100vw;
     height: 95vh;
-    background: url("/img/mobile.jpg") no-repeat center top;
+    background: url("img/mobile.jpg") no-repeat center top;
     background-size: cover;
   }
 
