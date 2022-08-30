@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Queen's Gambit</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png"/>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="final.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+</head>
+<body>
+    <header class="header" id="home">
+        <!-- Navigation start -->
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a id="home-nav-link" class="nav__link nav__link--home" href="#home">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a id="about-nav-link" class="nav__link nav__link--about" href="#about">About</a>
+                </li>
+                <li class="nav__item">
+                    <a id="interesting-nav-link" class="nav__link nav__link--interesting" href="#interesting">Interesting</a>
+                </li>
+                <li class="nav__item">
+                    <a id="watch-nav-link" class="nav__link nav__link--watch" href="#watch">Watch Now</a>
+                </li>
+            </ul>
+            <!-- Burger Menu -->
+            <div class="burger">
+                <span class="burger__bar"></span>
+                <span class="burger__bar"></span>
+                <span class="burger__bar"></span>
+            </div>
+        </nav>
+
+        <!-- Navigation end -->
+
+        <div class="header__mobile">
+            <!-- Heading start -->
+            <div id="home" class="heading">
+                <h1 class="heading__title">The Queen's Gambit</h1>
+                <p class="heading__text">Orphaned at the tender age of nine, prodigious introvert Beth Harmon discovers and masters the game of chess in 1960s
+                USA. But child stardom comes at a price.</p>
+            </div>
+            <!-- Heading end -->
+        </div>
+
+        <!-- Carousel start -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/third.jpg" class="carousel-img d-block w-100" alt="Queen's Gambit">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/ssecond.jpg" class="carousel-img d-block w-100" alt="Queen's Gambit">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/first.jpg" class="carousel-img d-block w-100" alt="Queen's Gambit">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel end -->
+
+    </header>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div id="container" class="container about-container d-flex justify-content-between align-items-start" >
+            <!--  -->
+            <div class="about__description">
+                <div class="description__tags d-flex justify-content-evenly flex-wrap">
+                    <a href="#about" class="description__tag">
+                        chess
+                    </a>
+                    <a href="#about" class="description__tag">
+                        addiction
+                    </a>
+                    <a href="#about" class="description__tag">
+                        female protoganist
+                    </a>
+                    <a href="#about" class="description__tag">
+                        1950s
+                    </a>
+                    <a href="#about" class="description__tag">
+                        tv mini series
+                    </a>
+                </div>
+                <p class="description__text">
+                    After her mother dies in a car accident nine-year-old Beth Harmon is sent to an orphanage. A shy, withdrawn girl she
+                    finds a purpose when the school janitor teaches her to play chess. She demonstrates a prodigious talent for the game and
+                    is soon competing at a very high level. However, she has also developed a drug addiction as this seems to help her play.
+                    She seems set on a path for fame...and self-destruction.
+                </p>
+                <img src="./img/game.jpg" alt="Queen's Gambit" class="description__img">
+            </div>
+            <!--  -->
+            <div class="about__description about__description--second">
+                <img src="./img/ches.jpg" alt="Queen's Gambit" class="description__img">
+                <p class="description__text">
+                    Nine year-old orphan Beth Harmon is quiet, sullen, and by all appearances unremarkable. That is, until she plays
+                    her
+                    first game of chess. Her senses grow sharper, her thinking clearer, and for the first time in her life she feels
+                    herself
+                    fully in control. By the age of sixteen, she's competing for the U.S. Open championship. But as Beth hones her
+                    skills on
+                    the professional circuit, the stakes get higher, her isolation grows more frightening, and the thought of escape
+                    becomes
+                    all the more tempting. Based on the book by Walter Tevis.
+                    <a href="https://en.wikipedia.org/wiki/The_Queen%27s_Gambit_(miniseries)" class="info-link" target="_blank">
+                        More info...
+                    </a>
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+<!-- 
+ -->
+    <!-- interesting section start -->
+    <section id="interesting" class="interesting">
+        <div class="container" id="container">
+            <h2 class="interesting__header">
+                Did you know?
+            </h2>
+            <div class="interesting__cards">
+                <!-- card 1 -->
+                <div class="interesting__card d-flex">
+                    <p class="card__text">
+                        Unlike a majority of movies and television shows depicting chess boards, the chess boards are always set up correctly in
+                        this series and the chess games and positions are realistic. National Master Bruce Pandolfini and Grandmaster Garry
+                        Kasparov acted as consultants for this series.
+                    </p>
+                    <a href="#interesting" class="card__link">
+                        <svg class="link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-chevron-right"
+                            viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                            <path
+                                d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <!-- card 2 -->
+                <div class="interesting__card d-flex">
+                    <p class="card__text">
+                        In autumn 2020, multiple news outlets (including the New York Times, NPR, FOX Business, CNN, Forbes, Variety, and many
+                        others) reported that due to the popularity of this series, sales of chess sets had skyrocketed and interest in learning
+                        the game had greatly increased.
+                    </p>
+                    <a href="#interesting" class="card__link">
+                        <svg class="link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-chevron-right"
+                            viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                            <path
+                                d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <!-- card 3 -->
+                <div class="interesting__card d-flex">
+                    <p class="card__text">
+                        It took writer and producer Allan Scott about thirty years to get this show into production. During that time, he
+                        rewrote the story nine times and approached several studios. Each studio rejected the show, as they believed that nobody
+                        would be interested in chess. Ironically, this show became the most viewed show on Netflix, attracting over 62 million
+                        viewers worldwide within a month after its debut.
+                    </p>
+                    <a href="#interesting" class="card__link">
+                        <svg class="link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-chevron-right"
+                            viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                            <path
+                                d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <!-- card 4 -->
+                <div class="interesting__card d-flex">
+                    <p class="card__text">
+                        Mr. Shaibel gives Elizabeth a book titled 'Modern Chess Openings'. Usually called MCO, this book was written by Richard
+                        Clewin Griffith and John Herbert White and first published in 1911. It has since seen 15 editions, and has been
+                        described as the 'first scientific study of the openings in the twentieth century'.
+                    </p>
+                    <a href="#interesting" class="card__link">
+                        <svg class="link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="iconContext-chevron-right"
+                            viewBox="0 0 24 24" fill="currentColor" role="presentation">
+                            <path fill="none" d="M0 0h24v24H0V0z"></path>
+                            <path
+                                d="M9.29 6.71a.996.996 0 0 0 0 1.41L13.17 12l-3.88 3.88a.996.996 0 1 0 1.41 1.41l4.59-4.59a.996.996 0 0 0 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- interesting section end -->
+
+    <!-- watch section start -->
+    <section class="watch" id="watch">
+        <div id="container" class="container">
+            <a class="watch__btn" href="https://www.netflix.com/be-en/title/80234304" class="watch__netflix" target="_blank"
+                title="Netflix">
+                <span class="btn__text">Watch on </span>
+                <img width="70px" src="./img/netflix_official_logo_icon_168085.svg" alt="Netflix">
+                <span class="btn__text">now</span>
+            </a>
+            <iframe class="watch__iframe" width="760" height="515" frameborder="0" allow="autoplay" allowfullscreen src="https://www.youtube.com/embed/kwrQzTz16w4?autoplay=1&mute=1" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            
+        </div>
+    </section>
+    <!-- watch section end -->
+
+    <!-- js -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
